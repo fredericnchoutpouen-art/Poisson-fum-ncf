@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Poisson fumé NCF - Douala</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #0b5d3b;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 16px;
+    }
+
+    .hero {
+      background: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      color: #0b5d3b;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      line-height: 1.6;
+    }
+
+    .products {
+      padding: 25px 15px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .products h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0b5d3b;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 22px;
+      font-weight: bold;
+      color: #d35400;
+      margin: 12px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 13px 22px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+
+    .info {
+      background: #fff;
+      margin: 20px 15px;
+      padding: 20px;
+      border-radius: 12px;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    .info h2 {
+      color: #0b5d3b;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 30px;
+    }
+
+    footer a {
+      color: #25D366;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🐟 POISSON FUMÉ NCF</h1>
+    <p>Votre boutique de poisson fumé à Douala</p>
+  </header>
+
+  <section class="hero">
+    <h2>Poisson fumé de qualité</h2>
+    <p>
+      Découvrez nos poissons fumés soigneusement sélectionnés.
+      Commandez facilement par WhatsApp et faites-vous livrer à Douala.
+    </p>
+  </section>
+
+  <section class="products">
+
+    <h2>Nos produits</h2>
+
+    <div class="card">
+      <h3>🐟 Poisson fumé - Bouga</h3>
+      <p>Poisson fumé de qualité pour vos repas.</p>
+      <div class="price">À partir de 2 000 FCFA</div>
+
+      <a
+        class="btn"
+        href="https://wa.me/237695788232?text=Bonjour%20Poisson%20fum%C3%A9%20NCF,%20je%20voudrais%20commander%20du%20poisson%20fum%C3%A9%20Bouga."
+        target="_blank">
+        Commander sur WhatsApp
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>🛒 Commande personnalisée</h3>
+      <p>
+        Vous souhaitez une quantité particulière ?
+        Contactez-nous directement pour connaître la disponibilité et le prix.
+      </p>
+
+      <a
+        class="btn"
+        href="https://wa.me/237691108110?text=Bonjour,%20je%20voudrais%20avoir%20des%20informations%20sur%20vos%20poissons%20fum%C3%A9s."
+        target="_blank">
+        Nous contacter
+      </a>
+    </div>
+
+  </section>
+
+  <section class="info">
+
+    <h2>🚚 Livraison</h2>
+
+    <p>
+      Livraison disponible à Douala.
+    </p>
+
+    <p>
+      <strong>À partir de 50 000 FCFA d'achat.</strong>
+    </p>
+
+    <p>
+      Contactez-nous pour connaître les conditions et les frais de livraison
+      selon votre zone.
+    </p>
+
+  </section>
+
+  <section class="info">
+
+    <h2>📞 Contact</h2>
+
+    <p><strong>Frédéric</strong></p>
+
+    <p>📱 695 788 232</p>
+    <p>📱 691 108 110</p>
+
+    <a
+      class="btn"
+      href="https://wa.me/237695788232"
+      target="_blank">
+      💬 Écrire sur WhatsApp
+    </a>
+
+  </section>
+
+  <footer>
+    <p>© 2026 Poisson fumé NCF</p>
+    <p>Boutique de poisson fumé à Douala</p>
+  </footer>
+
+</body>
+</html>
